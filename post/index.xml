@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Spectector</title>
-    <link>http://swiftline.github.io/post/</link>
+    <link>https://spectector.github.io/post/</link>
     <description>Recent content in Posts on Spectector</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://swiftline.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://spectector.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>What is it?</title>
-      <link>http://swiftline.github.io/post/description/</link>
+      <link>https://spectector.github.io/post/description/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://swiftline.github.io/post/description/</guid>
+      <guid>https://spectector.github.io/post/description/</guid>
       <description>Spectector analyzes x64 assembly programs, and it either automatically detects information leaks introduced by speculatively executed instructions or proves the program leak-free.
 In a nutshell, Spectector symbolically executes the program under analysis with respect to a semantics that accounts for the speculative execution&amp;rsquo;s effects. During the symbolic execution, Spectector derives SMT formulae characterizing leaks caused by speculatively executed instructions. It then relies on the Z3 SMT solver to determine the presence of possible leaks.</description>
     </item>
     
     <item>
       <title>Downloads</title>
-      <link>http://swiftline.github.io/post/resources/</link>
+      <link>https://spectector.github.io/post/resources/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://swiftline.github.io/post/resources/</guid>
+      <guid>https://spectector.github.io/post/resources/</guid>
       <description> The source code of Spectector is available on Github at the following repository  . See the README for more information on installing and using Spectector.
  The benchmarks used in the Spectector&amp;rsquo;s paper are available at the following repository  .
 Here, we describe how one can reproduce the experimental results from the Spectector&amp;rsquo;s paper.
@@ -34,10 +34,10 @@ Here, we describe how one can reproduce the experimental results from the Specte
     
     <item>
       <title>Publications</title>
-      <link>http://swiftline.github.io/post/publications/</link>
+      <link>https://spectector.github.io/post/publications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://swiftline.github.io/post/publications/</guid>
+      <guid>https://spectector.github.io/post/publications/</guid>
       <description> Spectector: Principled Detection of Speculative Information Flows
 Marco Guarnieri, Boris Koepf, José Francisco Morales, Jan Reineke, Andrés Sánchez
   Paper  </description>
@@ -45,10 +45,10 @@ Marco Guarnieri, Boris Koepf, José Francisco Morales, Jan Reineke, Andrés Sán
     
     <item>
       <title>Team</title>
-      <link>http://swiftline.github.io/post/team/</link>
+      <link>https://spectector.github.io/post/team/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://swiftline.github.io/post/team/</guid>
+      <guid>https://spectector.github.io/post/team/</guid>
       <description>Marco Guarnieri  IMDEA Software Institute   Boris Koepf  Microsoft Research Cambridge  José Francisco Morales  IMDEA Software Institute    Jan Reineke  Saarland University  Andrés Sánchez  IMDEA Software Institute</description>
     </item>
     
