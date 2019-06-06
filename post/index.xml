@@ -11,13 +11,13 @@
     
     
     <item>
-      <title>What is it?</title>
+      <title></title>
       <link>https://spectector.github.io/post/description/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://spectector.github.io/post/description/</guid>
-      <description>Spectector analyzes x64 assembly programs, and it either automatically detects information leaks introduced by speculatively executed instructions or proves the program leak-free.
-In a nutshell, Spectector symbolically executes the program under analysis with respect to a semantics that accounts for the speculative execution&amp;rsquo;s effects. During the symbolic execution, Spectector derives SMT formulae characterizing leaks caused by speculatively executed instructions. It then relies on the Z3 SMT solver to determine the presence of possible leaks.</description>
+      <description>Spectector is a tool for automatically detecting leaks caused by speculatively executed instructions in x64 assembly programs.
+In a nutshell, Spectector symbolically executes the program under analysis with respect to a semantics that captures the effects of speculatively executed instructions. During the symbolic execution, Spectector derives SMT formulae characterizing leaks caused by speculatively executed instructions, and it relies on the Z3 SMT solver to determine the presence of possible leaks or prove their absence.</description>
     </item>
     
     <item>
@@ -28,7 +28,7 @@ In a nutshell, Spectector symbolically executes the program under analysis with 
       <guid>https://spectector.github.io/post/resources/</guid>
       <description> The source code of Spectector is available on Github at the following repository  . See the README for more information on installing and using Spectector.
  The benchmarks used in the Spectector&amp;rsquo;s paper are available at the following repository  .
-Here, we describe how one can reproduce the experimental results from the Spectector&amp;rsquo;s paper.
+See the README for more information on how to reproduce the experimental results from the Spectector&amp;rsquo;s paper.
   </description>
     </item>
     
@@ -40,7 +40,9 @@ Here, we describe how one can reproduce the experimental results from the Specte
       <guid>https://spectector.github.io/post/publications/</guid>
       <description> Spectector: Principled Detection of Speculative Information Flows
 Marco Guarnieri, Boris Koepf, José Francisco Morales, Jan Reineke, Andrés Sánchez
-  Paper  </description>
+To appear in the Proceedings of the IEEE Symposium on Security &amp;amp; Privacy, May 2020
+  Paper (June 2019)   Arxiv preprint (December 2018)
+  </description>
     </item>
     
     <item>

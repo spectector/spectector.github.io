@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <base href="https://spectector.github.io">
-    <title>What is it?</title>
+    <title></title>
 
     
     <link href="/css/bootstrap.min.css" rel="stylesheet">
@@ -107,14 +107,14 @@ body {
           <div>
             <hr class="section-heading-spacer">
             <div class="clearfix"></div>
-            <h2 class="section-heading">What is it?</h2>
-            <p><strong>Spectector</strong> analyzes  x64 assembly programs, and it either automatically detects information leaks introduced by speculatively executed instructions or proves the program leak-free.</p>
+            <h2 class="section-heading"></h2>
+            <p><strong>Spectector</strong> is a tool for automatically detecting leaks caused by speculatively executed instructions in x64 assembly programs.</p>
 
 <p>In a nutshell, <strong>Spectector</strong> symbolically executes the program under analysis with
-respect to a semantics that accounts for the speculative execution&rsquo;s effects.
+respect to a semantics that captures the effects of speculatively executed instructions.
 During the symbolic execution, <strong>Spectector</strong> derives SMT formulae characterizing
-leaks caused by speculatively executed instructions. It then relies on the Z3
-SMT solver to determine the presence of possible leaks.</p>
+leaks caused by speculatively executed instructions, and it relies on the Z3
+SMT solver to determine the presence of possible leaks or prove their absence.</p>
 
 <p>Using <strong>Spectector</strong>, we detected subtle bugs in the way Spectre-countermeasures
 are placed by several major compilers, which may result in insecure
@@ -132,7 +132,7 @@ programs or unnecessary countermeasures.</p>
     <div class="container">
         <div class="row">
             <div class="col-md-8">
-                <p class="copyright text-muted small">Copyright &copy; What is it? All Rights Reserved</p>
+                <p class="copyright text-muted small">Copyright &copy;  All Rights Reserved</p>
             </div>
             <div class="col-md-4">
 		Built with <a href="http://gohugo.io">Hugo</a> and the
